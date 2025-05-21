@@ -24,6 +24,8 @@ pub mod precompiles;
 
 mod either;
 
+pub use hybrid_evm;
+
 // re-export revm and op-revm
 #[cfg(feature = "op")]
 pub use op_revm;
