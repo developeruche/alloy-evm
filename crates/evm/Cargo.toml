@@ -28,6 +28,8 @@ auto_impl.workspace = true
 derive_more.workspace = true
 thiserror.workspace = true
 
+hybrid_evm = {git = "https://github.com/developeruche/hybrid", branch = "feat/hybrid_evm"}
+
 [dev-dependencies]
 alloy-primitives = { workspace = true, features = ["serde"] }
 serde_json.workspace = true
